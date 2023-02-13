@@ -11,89 +11,6 @@
         rel="stylesheet">
     <link rel="stylesheet" href="/scss/main.css">
 </head>
-<style>
-    .wrapper {
-        height: 100vh;
-        width: 100vw;
-        background-color: #fff;
-        position: fixed;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 100;
-        transition: all 0.5s ease-in-out;
-    }
-
-    #wrapper.closePre {
-        display: none;
-    }
-
-    .loader {
-        width: 48px;
-        height: 48px;
-        margin: auto;
-        position: relative;
-    }
-
-    .loader::before {
-        content: '';
-        width: 48px;
-        height: 5px;
-        background-color: #f0808050;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        border-radius: 50%;
-        animation: shadow123 0.5s linear infinite;
-    }
-
-    .loader::after {
-        content: '';
-        width: 100%;
-        height: 100%;
-        background-color: #f08080;
-        position: absolute;
-        top: 0;
-        left: 0;
-        border-radius: 4px;
-        animation: jump123 0.5s linear infinite;
-    }
-
-    @keyframes jump123 {
-        15% {
-            border-bottom-right-radius: 3px;
-        }
-
-        25% {
-            transform: translateY(9px) rotate(22.5deg);
-        }
-
-        50% {
-            transform: translateY(18px) scale(1, .9) rotate(45deg);
-            border-bottom-right-radius: 40px;
-        }
-
-        75% {
-            transform: translate(9px) rotate(67.5deg);
-        }
-
-        100% {
-            transform: translateY(0) rotate(90deg);
-        }
-    }
-
-    @keyframes shadow123 {
-
-        0%,
-        100% {
-            transform: scale(1, 1);
-        }
-
-        50% {
-            transform: scale(1.2, 1);
-        }
-    }
-</style>
 
 <body>
     <div class="wrapper" id="wrapper">
@@ -109,11 +26,11 @@
                 <li class="menu_item">How it works</li>
                 <li class="menu_item">Discover</li>
                 <li class="menu_item">
-                    <img class="search_icon" src="./image/search.png" alt="">
+                    <img class="search_icon" src="./image/search.png" alt="Sample related image">
                 </li>
                 <li class="menu_item">
                     <button class="pink_btn">
-                        <img src="./image/lgn.png" alt="">
+                        <img src="./image/lgn.png" alt="Sample related image">
                         <span>LOGIN</span>
                     </button>
                 </li>
@@ -151,7 +68,7 @@
                         </div>
                     </div>
                     <div class="down_arrow">
-                        <img src="./image/downarw.png" alt="">
+                        <img src="./image/downarw.png" alt="Sample related image">
                     </div>
                 </div>
             </div>
@@ -266,7 +183,7 @@
             <div class="card_container">
                 <div class="card">
                     <figure>
-                        <img src="./image/m1.jpg" alt="">
+                        <img src="./image/m1.jpg" alt="Sample related image">
                         <ul class="data_indi">
                             <li class="single_indi">
                                 <h6>Raised</h6>
@@ -299,7 +216,7 @@
                 </div>
                 <div class="card">
                     <figure>
-                        <img src="./image/m3.jpg" alt="">
+                        <img src="./image/m3.jpg" alt="Sample related image">
                         <ul class="data_indi">
                             <li class="single_indi">
                                 <h6>Raised</h6>
@@ -333,7 +250,7 @@
 
                 <div class="card">
                     <figure>
-                        <img src="./image/m2.jpg" alt="">
+                        <img src="./image/m2.jpg" alt="Sample related image">
                         <ul class="data_indi">
                             <li class="single_indi">
                                 <h6>Raised</h6>
@@ -377,7 +294,7 @@
             <div class="card_container">
                 <div class="card">
                     <figure>
-                        <img src="./image/m2.jpg" alt="">
+                        <img src="./image/m2.jpg" alt="Sample related image">
                         <ul class="data_indi">
                             <li class="single_indi">
                                 <h6>Raised</h6>
@@ -410,7 +327,7 @@
                 </div>
                 <div class="card">
                     <figure>
-                        <img src="./image/m1.jpg" alt="">
+                        <img src="./image/m1.jpg" alt="Sample related image">
                         <ul class="data_indi">
                             <li class="single_indi">
                                 <h6>Raised</h6>
@@ -444,7 +361,7 @@
 
                 <div class="card">
                     <figure>
-                        <img src="./image/m3.jpg" alt="">
+                        <img src="./image/m3.jpg" alt="Sample related image">
                         <ul class="data_indi">
                             <li class="single_indi">
                                 <h6>Raised</h6>
@@ -488,7 +405,7 @@
             <div class="card_container">
                 <div class="card">
                     <figure>
-                        <img src="./image/m2.jpg" alt="">
+                        <img src="./image/m2.jpg" alt="Sample related image">
                         <button class="blue_btn">READ MORE</button>
                         <figcaption>
                             <h4>Supplies Saint Francis Hospital in Katete, Zambia</h4>
@@ -519,7 +436,7 @@
                 </div>
                 <div class="card">
                     <figure>
-                        <img src="./image/m1.jpg" alt="">
+                        <img src="./image/m1.jpg" alt="Sample related image">
                         <button class="blue_btn">READ MORE</button>
                         <figcaption>
                             <h4>Supplies Saint Francis Hospital in Katete, Zambia</h4>
@@ -551,7 +468,7 @@
 
                 <div class="card">
                     <figure>
-                        <img src="./image/m3.jpg" alt="">
+                        <img src="./image/m3.jpg" alt="Sample related image">
                         <button class="blue_btn">READ MORE</button>
                         <figcaption>
                             <h4>Supplies Saint Francis Hospital in Katete, Zambia</h4>
@@ -587,7 +504,7 @@
     <section class="testimonial">
         <div class="container">
             <h2>Only for social causes</h2>
-            <img src="./image/quote.png" alt="">
+            <img src="./image/quote.png" alt="Sample related image">
             <p>Direct Giving only crowdfunds non-profit and social enterprise projects. That’s it. That means we know
                 what works for social causes, and our community is only interested in projects like yours.</p>
         </div>
@@ -602,7 +519,7 @@
                     <div class="box_num">
                         <span>1</span>
                     </div>
-                    <img src="./image/ctgry1.png" alt="">
+                    <img src="./image/ctgry1.png" alt="Sample related image">
                     <h5>Decide</h5>
                     <p>On a social cause project you're passionate about</p>
                 </div>
@@ -610,7 +527,7 @@
                     <div class="box_num">
                         <span>2</span>
                     </div>
-                    <img src="./image/ctgry2.png" alt="">
+                    <img src="./image/ctgry2.png" alt="Sample related image">
                     <h5>Connect</h5>
                     <p>With 2-3 people who also care about your project</p>
                 </div>
@@ -618,7 +535,7 @@
                     <div class="box_num">
                         <span>3</span>
                     </div>
-                    <img src="./image/ctgry3.png" alt="">
+                    <img src="./image/ctgry3.png" alt="Sample related image">
                     <h5>Create</h5>
                     <p>A campaign page on Direct Giving.org to raise funds</p>
                 </div>
@@ -626,7 +543,7 @@
                     <div class="box_num">
                         <span>4</span>
                     </div>
-                    <img src="./image/ctgry4.png" alt="">
+                    <img src="./image/ctgry4.png" alt="Sample related image">
                     <h5>Promote</h5>
                     <p>Use your team to promote your campaign</p>
                 </div>
@@ -634,7 +551,7 @@
                     <div class="box_num">
                         <span>5</span>
                     </div>
-                    <img src="./image/ctgry5.png" alt="">
+                    <img src="./image/ctgry5.png" alt="Sample related image">
                     <h5>Act</h5>
                     <p>Use funds raised to do your project and tell people about it</p>
                 </div>
@@ -648,7 +565,7 @@
                 <div class="ready_left">
                     <h5>Ready to start your project?</h5>
                     <figure>
-                        <img src="./image/pdlr.png" alt="">
+                        <img src="./image/pdlr.png" alt="Sample related image">
                     </figure>
                 </div>
                 <div class="ready_right">
@@ -675,15 +592,7 @@
             </div>
         </div>
     </footer>
-    <script>
-        const preloader = document.querySelector('.wrapper');
-
-        const fadeEffect = setInterval(() => {
-            preloader.classList.add('closePre');
-        }, 1000);
-
-        window.addEventListener('load', fadeEffect);
-    </script>
+    <script src="./main.js"></script>
 </body>
 
 </html>
